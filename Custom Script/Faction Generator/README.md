@@ -2,18 +2,18 @@ First make sure NameLibrary.cs is in the same directory with GenerateFaction.cs
 Then assign each object
 Then adjust the amount of faction you want to have
 
-Notes:
--All generated faction have random stats and pre-assigned homesector.
--If you can do little coding, you can expand NameLibrary.cs by adding your own word.
--There is plenty comment inside NameLibrary.cs to help you out, but in general:
+# Notes:
+ All generated faction have random stats and pre-assigned homesector.
+ If you can do little coding, you can expand NameLibrary.cs by adding your own word.
+ There is plenty comment inside NameLibrary.cs to help you out, but in general:
   There is 3 section each divided into 2 part.
 
-  -First section is for virtue value.
-  -It have two part. Front name and Rear name.
-  -Each word must have a value.
-  -Higher = More toward good, lower = More toward evil.
-  -The min and max value is -5 and 5 .
-  -It use simple "feelings" as if you think the name is
+   First section is for virtue value.
+   It have two part. Front name and Rear name.
+   Each word must have a value.
+   Higher = More toward good, lower = More toward evil.
+   The min and max value is -5 and 5 .
+   It use simple "feelings" as if you think the name is
    sounds from something good then it have higher value and
    vice versa.
 
