@@ -5,4 +5,5 @@
 5. In that Object Duplicator Window, adjust Number of Duplication, Minimum Distance, and Max Distance. Make sure the game object in hierarchy is still selected 
 6. Click the duplicate button
 7. It should duplicate everything of the selected game object and put them in random distance between min and max distance, this include child game object inside, any all of the added components and script.
+
 The distance is measured as ingame distance which mean 1000 equals D:1000 ingame
